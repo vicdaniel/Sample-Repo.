@@ -1,17 +1,6 @@
-# import sys
-import requests
+message = "Hello World"
 
-# print(sys.version)
-# print(sys.executable)
+message = message.replace("World", "Universe")
 
-
-# def greet(who_to_greet):
-#     greeting = "Hello, {}".format(who_to_greet)
-#     return greeting
-
-
-# print(greet('World'))
-# print(greet('Victor'))
-r = requests.get("https://microsoft.com")
-print(r.status_code)
-print(r.ok)
+print(message)
+print(help(str))
